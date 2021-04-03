@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4282c7e8-0fae-413d-a6a4-76428f234f42" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="OpenAPI" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.16.2/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/openapi" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="minikube" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="ProjectId" id="1qf1oT0HWevWaVDMbbmBWEUhdaO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/main" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/test/main" />
+      <recent name="$PROJECT_DIR$/openapi/main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build github.com/GIT_USER_ID/GIT_REPO_ID/main (1)">
+    <configuration name="go build github.com/GIT_USER_ID/GIT_REPO_ID/main (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="openapitest" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/test/main/main.go" />
+      <package value="github.com/GIT_USER_ID/GIT_REPO_ID/main" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/GIT_USER_ID/GIT_REPO_ID/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="openapi" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main/main.go" />
+      <package value="github.com/GIT_USER_ID/GIT_REPO_ID/main" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/rezaindrag/openapi" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="openapi" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/rezaindrag/openapi" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/rezaindrag/openapi/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="openapi" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main/main.go" />
+      <package value="github.com/rezaindrag/openapi/main" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/rezaindrag/openapi/openapi/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="openapi" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/openapi/main/main.go" />
+      <package value="github.com/rezaindrag/openapi/openapi/main" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="" />
+      <option name="jdkPath" value="" />
+      <option name="language" value="" />
+      <option name="specificationPath" value="$PROJECT_DIR$/openapi.yaml" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/GIT_USER_ID/GIT_REPO_ID/main (1)" />
+        <item itemvalue="Go Build.go build github.com/GIT_USER_ID/GIT_REPO_ID/main" />
+        <item itemvalue="Go Build.go build github.com/rezaindrag/openapi/main" />
+        <item itemvalue="Go Build.go build github.com/rezaindrag/openapi/openapi/main" />
+        <item itemvalue="Go Build.go build github.com/rezaindrag/openapi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="496" y="387" key="#GOROOT" timestamp="1617456066820">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="496" y="387" key="#GOROOT/0.0.1440.900@0.0.1440.900" timestamp="1617456066820" />
+    <state x="479" y="298" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1617460127600">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="479" y="298" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.797@0.23.1440.797" timestamp="1617460127600" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1617463038071">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1617458939830" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1617463038071" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1617463038070">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1617458939827" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1617463038070" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1617463038069">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1617458939826" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1617463038069" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1617463038071">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1617458939828" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1617463038071" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1617458495611">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1617458495611" />
+  </component>
+</project>

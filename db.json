@@ -1,0 +1,12 @@
+{
+  "feed": [
+    {
+      "type": "article",
+      "title": "article title"
+    },
+    {
+      "type": "person",
+      "name": "person name"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+openapi: 3.0.0
+info:
+  title: Dummy
+  description: Dummy
+  version: 1.0.0
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  '/feed':
+    get:
+      tags:
+        - feed
+      summary: Fetch feed
+      operationId: fetchFeed
+      responses:
+        '200':
+          description: Returns feed.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Feed'
+components:
+  schemas:
+    Test:
+      type: object
+      additionalProperties: {}
+    Feed:
+      type: 'object'
+      oneOf:
+        - $ref: '#/components/schemas/Article'
+        - $ref: '#/components/schemas/Person'
+      discriminator:
+        propertyName: 'type'
+        mapping:
+          article: '#/components/schemas/Article'
+          person: '#/components/schemas/Person'
+    Article:
+      type: object
+      properties:
+        type:
+          type: string
+          example: article
+        title:
+          type: string
+          example: Article title
+      required:
+        - type
+    Person:
+      type: object
+      properties:
+        type:
+          type: string
+          example: person
+        name:
+          type: string
+          example: Person name
+      required:
+        - type
