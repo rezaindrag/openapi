@@ -21,11 +21,36 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/Feed'
+  '/feed-home':
+    get:
+      tags:
+        - feedHome
+      summary: Fetch feed home
+      operationId: fetchFeedHome
+      responses:
+        '200':
+          description: Returns feed.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/FeedHome'
 components:
   schemas:
     Test:
       type: object
       additionalProperties: {}
+    FeedHome:
+      type: 'object'
+      oneOf:
+        - $ref: '#/components/schemas/Article'
+        - $ref: '#/components/schemas/PersonHome'
+      discriminator:
+        propertyName: 'type'
+        mapping:
+          article: '#/components/schemas/Article'
+          person: '#/components/schemas/PersonHome'
     Feed:
       type: 'object'
       oneOf:
@@ -56,5 +81,19 @@ components:
         name:
           type: string
           example: Person name
+      required:
+        - type
+    PersonHome:
+      type: object
+      properties:
+        type:
+          type: string
+          example: person
+        first_name:
+          type: string
+          example: Person first name
+        last_name:
+          type: string
+          example: Person last name
       required:
         - type

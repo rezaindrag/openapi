@@ -21,10 +21,35 @@ paths:
       summary: Fetch feed
       tags:
       - feed
+  /feed-home:
+    get:
+      operationId: fetchFeedHome
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/FeedHome'
+                type: array
+          description: Returns feed.
+      summary: Fetch feed home
+      tags:
+      - feedHome
 components:
   schemas:
     Test:
       additionalProperties: {}
+      type: object
+    FeedHome:
+      discriminator:
+        mapping:
+          article: '#/components/schemas/Article'
+          person: '#/components/schemas/PersonHome'
+        propertyName: type
+      oneOf:
+      - $ref: '#/components/schemas/Article'
+      - $ref: '#/components/schemas/PersonHome'
       type: object
     Feed:
       discriminator:
@@ -54,6 +79,20 @@ components:
           type: string
         name:
           example: Person name
+          type: string
+      required:
+      - type
+      type: object
+    PersonHome:
+      properties:
+        type:
+          example: person
+          type: string
+        first_name:
+          example: Person first name
+          type: string
+        last_name:
+          example: Person last name
           type: string
       required:
       - type

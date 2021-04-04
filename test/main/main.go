@@ -2,7 +2,6 @@ package main
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
 	"log"
 	"net/http"
@@ -34,10 +33,18 @@ func main() {
 		log.Fatal(err)
 	}
 	fmt.Println(resp.Request.URL.String())
-	bFeed, _ := json.Marshal(feed)
-	fmt.Println(string(bFeed))
 
 	for _, f := range feed {
 		fmt.Println(f.Article.GetTitle(), f.Person.GetName())
+	}
+
+	feedHome, resp, err := openapiClient.FeedHomeApi.FetchFeedHome(context.Background()).Execute()
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Println(resp.Request.URL.String())
+
+	for _, f := range feedHome {
+		fmt.Println(f.Article.GetTitle(), f.PersonHome.GetFirstName(), f.PersonHome.GetLastName())
 	}
 }

@@ -79,13 +79,16 @@ All URIs are relative to *http://localhost:3000*
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
 *FeedApi* | [**FetchFeed**](docs/FeedApi.md#fetchfeed) | **Get** /feed | Fetch feed
+*FeedHomeApi* | [**FetchFeedHome**](docs/FeedHomeApi.md#fetchfeedhome) | **Get** /feed-home | Fetch feed home
 
 
 ## Documentation For Models
 
  - [Article](docs/Article.md)
  - [Feed](docs/Feed.md)
+ - [FeedHome](docs/FeedHome.md)
  - [Person](docs/Person.md)
+ - [PersonHome](docs/PersonHome.md)
 
 
 ## Documentation For Authorization
